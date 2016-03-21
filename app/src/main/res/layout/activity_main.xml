@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="cn.wangbaiyuan.androidsocketav.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:layout_toLeftOf="@+id/surfaceView"
+        android:layout_toStartOf="@+id/surfaceView"
+        android:layout_above="@+id/surfaceView" />
+
+        />
+
+    <SurfaceView
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:id="@+id/surfaceView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
